@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://localhost:8080/VIETSON/index.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Viết Sơn</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Colo Shop Template">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./Viết Sơn_files/bootstrap.min.css">
+<link href="./Viết Sơn_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./Viết Sơn_files/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="./Viết Sơn_files/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="./Viết Sơn_files/animate.css">
+<link rel="stylesheet" type="text/css" href="./Viết Sơn_files/main_styles.css">
+<link rel="stylesheet" type="text/css" href="./Viết Sơn_files/responsive.css">
+
+
+
+<style>.--savior-overlay-transform-reset {
+  transform: none !important;
+}
+.--savior-overlay-z-index-top {
+  z-index: 2147483643 !important;
+}
+.--savior-overlay-position-relative {
+  position: relative;
+}
+.--savior-overlay-position-static {
+  position: static !important;
+}
+.--savior-overlay-overflow-hidden {
+  overflow: hidden !important;
+}
+.--savior-overlay-overflow-x-visible {
+  overflow-x: visible !important;
+}
+.--savior-overlay-overflow-y-visible {
+  overflow-y: visible !important;
+}
+.--savior-overlay-z-index-reset {
+  z-index: auto !important;
+}
+.--savior-overlay-display-none {
+  display: none !important;
+}
+.--savior-overlay-clearfix {
+  clear: both;
+}
+.--savior-overlay-reset-filter {
+  filter: none !important;
+  backdrop-filter: none !important;
+}
+.--savior-tooltip-host {
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+}
+/*Override css styles for Twitch.tv*/
+main.--savior-overlay-z-index-reset {
+  z-index: auto !important;
+}
+.modal__backdrop.--savior-overlay-z-index-reset {
+  position: static !important;
+}
+main.--savior-overlay-z-index-top {
+  z-index: auto !important;
+}
+main.--savior-overlay-z-index-top .channel-root__player-container + div,
+main.--savior-overlay-z-index-top .video-player-hosting-ui__container + div {
+  opacity: 0.1;
+}
+/*Dirty hack for facebook big video page e.g: https://www.facebook.com/abc/videos/...*/
+.--savior-backdrop {
+  position: fixed !important;
+  z-index: 2147483642 !important;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw !important;
+  background-color: rgba(0,0,0,0.9);
+}
+.--savior-overlay-twitter-video-player {
+  position: fixed;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+}
+.--savior-overlay-z-index-reset [class*="DivSideNavContainer"],
+.--savior-overlay-z-index-reset [class*="DivHeaderContainer"],
+.--savior-overlay-z-index-reset [class*="DivBottomContainer"],
+.--savior-overlay-z-index-reset [class*="DivCategoryListWrapper"],
+.--savior-overlay-z-index-reset [data-testid="sidebarColumn"],
+.--savior-overlay-z-index-reset header[role="banner"],
+.--savior-overlay-z-index-reset [data-testid="cellInnerDiv"]:not(.--savior-overlay-z-index-reset),
+.--savior-overlay-z-index-reset [aria-label="Home timeline"]>div:first-child,
+.--savior-overlay-z-index-reset [aria-label="Home timeline"]>div:nth-child(3) {
+  z-index: -1 !important;
+}
+.--savior-overlay-z-index-reset [data-testid="cellInnerDiv"] .--savior-backdrop+div {
+  z-index: 2147483643 !important;
+}
+.--savior-overlay-z-index-reset [data-testid="primaryColumn"]>[aria-label="Home timeline"] {
+  z-index: 0 !important;
+}
+.--savior-overlay-z-index-reset#mtLayer,
+.--savior-overlay-z-index-reset.media-layer {
+  z-index: 3000 !important;
+}
+.--savior-overlay-position-relative [class*="SecBar_secBar_"],
+.--savior-overlay-position-relative .woo-box-flex [class*="Frame_top_"] {
+  z-index: 0 !important;
+}
+.--savior-overlay-position-relative .vue-recycle-scroller__item-view:not(.--savior-overlay-z-index-reset),
+.--savior-overlay-position-relative .woo-panel-main[class*="BackTop_main_"],
+.--savior-overlay-position-relative [class*="Main_side_"] {
+  z-index: -1 !important;
+}
+/* Fix conflict css with zingmp3 */
+.zm-video-modal.--savior-overlay-z-index-reset {
+  position: absolute;
+}
+/* Dirty hack for xvideos99 */
+#page #main.--savior-overlay-z-index-reset {
+  z-index: auto !important;
+}
+/* Overlay for ok.ru */
+#vp_w.--savior-overlay-z-index-reset.media-layer.media-layer__video {
+  overflow-y: hidden;
+  z-index: 2147483643 !important;
+}
+/* Fix missing controller for tv.naver.com */
+.--savior-overlay-z-index-top.rmc_controller,
+.--savior-overlay-z-index-top.rmc_setting_intro,
+.--savior-overlay-z-index-top.rmc_highlight,
+.--savior-overlay-z-index-top.rmc_control_settings {
+  z-index: 2147483644 !important;
+}
+/* Dirty hack for douyi.com */
+.swiper-wrapper.--savior-overlay-z-index-reset .swiper-slide:not(.swiper-slide-active),
+.swiper-wrapper.--savior-overlay-transform-reset .swiper-slide:not(.swiper-slide-active) {
+  display: none;
+}
+.videoWrap + div > div {
+  pointer-events: unset;
+}
+/* Dirty hack for fpt.ai */
+.mfp-wrap.--savior-overlay-z-index-top {
+  position: relative;
+}
+.mfp-wrap.--savior-overlay-z-index-top .mfp-close {
+  display: none;
+}
+.mfp-wrap.--savior-overlay-z-index-top .mfp-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset + nav {
+  z-index: -1 !important;
+}
+section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset section.--savior-overlay-z-index-reset div.--savior-overlay-z-index-reset ~ div {
+  position: relative;
+}
+.watching-movie #video-player.--savior-overlay-z-index-top {
+  z-index: 2147483644 !important;
+}
+div[class^="tiktok"].--savior-overlay-z-index-reset {
+  z-index: 2147483644 !important;
+}
+.--savior-lightoff-fix section:not(:has([class*="--savior-overlay-"])),
+.--savior-lightoff-fix section.section_video ~ section {
+  z-index: -1;
+  position: relative;
+}
+.--savior-lightoff-fix header,
+.--savior-lightoff-fix footer,
+.--savior-lightoff-fix .top-header,
+.--savior-lightoff-fix .swiper-container,
+.--savior-lightoff-fix #to_top,
+.--savior-lightoff-fix #button-adblock {
+  z-index: -1 !important;
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+</style></head><body class="h-100" style="" width="1920" height="920">
+	
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./Viết Sơn_files/ai.jpg" width="1920" height="920" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Viết Sơn_files/on4.webp" width="1920" height="980" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Viết Sơn_files/on2.jpg" width="1920" height="920" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Viết Sơn_files/on3.jpg" width="1920" height="920" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+
+<div class="super_container container h-100">
+	<!-- Header -->
+	<header class="header trans_300" style="top: 0px;">
+		<div class="main_nav_container">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-right">
+						<div class="logo_container col-2 col-lg-3 float-left">
+							<a href="http://localhost:8080/VIETSON/index.php"><span></span></a>
+							<img src="./Viết Sơn_files/logo VS_new.png" alt="Logo" style="max-width: 90%; height: auto;">
+						</div>
+						<div class="col-lg-9 col-10 float-right">
+							<nav class="navbar row "> 
+								<from method="post" class="col-lg-8 col-1 float-left" action="" onchange="search()">
+									<div class="navbar-search input-group  input-group-lg">
+										<input type="text" class="form-control" id="searchbox" placeholder="Nhập tên sản phẩm cần tìm..." name="search">
+										<div class="input-group-append">
+											<a id="btnsearch">
+											<input type="submit" value="Tìm kiếm" class="btn btn-outline-primary btn-lg"></a>
+										</div>
+									</div>
+								<!-- header -->
+				<div class="row p-2">
+						<div class="nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
+							<ul class="footer_nav">
+								<li><a href="http://localhost:8080/VIETSON/index.php">Trang chủ</a></li>
+								<li><a href="http://localhost:8080/VIETSON/index.php?controller=home&amp;action=aboutus">Giới thiệu</a></li>
+								<li><a href="http://localhost:8080/VIETSON/index.php?controller=news">Tin tức</a></li>
+								<li><a href="http://localhost:8080/VIETSON/index.php?controller=products">Sản phẩm</a></li>
+								<!-- <li><a href="index.php?controller=page">Bảo hành</a></li">  -->
+							</ul>
+							
+						</div>
+					</div>
+						
+
+				</from>
+				
+		
+		<script>
+			function search(){
+			var x=document.getElementById("searchbox").value;
+			x='index.php?controller=products&action=btnsearch&search='+x;
+			document.getElementById("btnsearch").setAttribute("href", x); 
+		}
+	</script>
+								<div class="col-lg-4 col-1">
+									<ul class="navbar_user navbar-search">
+										<li class="account">
+											<div class="top_nav_right">
+												<ul class="top_nav_menu">
+													
+													<!--  My Account -->
+
+													<li class="account">
+														<a href="http://localhost:8080/VIETSON/index.php#"><i class="fa fa-user" aria-hidden="true"></i></a>
+														<ul class="account_selection" style="width: 120px;">
+                                                        															<li><a href="http://localhost:8080/VIETSON/index.php?controller=login&amp;action=login"><i class="fa fa-sign-in" aria-hidden="true"></i>Đăng nhập</a></li>
+															<li><a href="http://localhost:8080/VIETSON/index.php?controller=customers&amp;action=register"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng kí</a></li>
+                                                        														</ul>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="checkout">
+											<a href="http://localhost:8080/VIETSON/index.php?controller=carts">
+												<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+																							</a>
+										</li>
+									</ul>
+								</div>
+								<div class="hamburger_container col-6 float-right">
+									<i class="fa fa-bars" aria-hidden="true"></i>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<div class="fs_menu_overlay"></div>
+	<div class="hamburger_menu">
+		<div class="hamburger_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+		<div class="hamburger_menu_content text-right">
+			<ul class="menu_top_nav">
+				<li class="menu_item has-children">
+					<a href="http://localhost:8080/VIETSON/index.php#">
+						Tài khoản
+						<i class="fa fa-angle-down"></i>
+					</a>
+					<ul class="menu_selection">
+												<li><a href="http://localhost:8080/VIETSON/index.php?controller=login&amp;action=login"><i class="fa fa-sign-in" aria-hidden="true"></i>  Đăng nhập</a></li>
+							<li><a href="http://localhost:8080/VIETSON/index.php?controller=customers&amp;action=register"><i class="fa fa-user-plus" aria-hidden="true"></i>  Đăng kí</a></li>
+							
+											</ul>
+				</li>
+			
+				<li class="menu_item"><a href="http://localhost:8080/VIETSON/index.php">Trang chủ</a></li>
+				<li class="menu_item"><a href="http://localhost:8080/VIETSON/index.php?controller=carts">Giỏ hàng 
+					</a>
+				</li>
+				
+				<li class="menu_item"><a href="http://localhost:8080/VIETSON/index.php?controller=news">Tin tức</a></li>
+				<li class="menu_item"><a href="http://localhost:8080/VIETSON/index.php#">Giới thiệu</a></li>
+				<li class="menu_item">
+					<div class="input-group">
+					  <input type="search" class="form-control rounded" placeholder="Nhập sản phầm cần tìm..." aria-label="Search" aria-describedby="search-addon">
+					  <button type="button" class="btn btn-outline-primary">Tìm</button>
+						
+
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- Main content -->
+    <section style="margin-top: 100px;">
+         
+	<!-- Banner -->
+	 
+	<div class="banner">
+		<div class="container">
+			<div class="row">
+			<div class="col-lg-12 mb-3">
+		
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <!-- <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/upload/logo/ai.jpg" width="1920" height="920" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/upload/logo/on4.webp" width="1920" height="920" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/upload/logo/on2.jpg" width="1920" height="920" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/upload/logo/on3.jpg" width="1920" height="920" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div> -->
+	
+			<!-- <div class="row p-2">
+				<h4>Từ khóa gợi ý:  </h4>&nbsp;&nbsp;
+									<div class="mr-2 mb-2">
+						<div class="align-items-center" >
+							<div class="banner_category">
+								<a class="btn btn-outline-info" href="index.php?controller=products&action=listbycategory&category_name=AI">
+									AI</a>
+							</div>
+						</div>
+					</div>
+									<div class="mr-2 mb-2">
+						<div class="align-items-center" >
+							<div class="banner_category">
+								<a class="btn btn-outline-info" href="index.php?controller=products&action=listbycategory&category_name=Linh kiện máy tính">
+									Linh kiện máy tính</a>
+							</div>
+						</div>
+					</div>
+									<div class="mr-2 mb-2">
+						<div class="align-items-center" >
+							<div class="banner_category">
+								<a class="btn btn-outline-info" href="index.php?controller=products&action=listbycategory&category_name=MSI-Dòng chơi game">
+									MSI-Dòng chơi game</a>
+							</div>
+						</div>
+					</div>
+							</div> -->
+			</div>
+		</div>
+	</div>
+
+	
+	<!-- big logo -->
+	<div class="inner">
+    <div class="section-title text-center">
+        <span class="section-title-border"></span>
+    </div>
+    <div class="grid">
+        <div id="owl-brands-slider" class="owl-carousel owl-theme owl-loaded owl-drag">
+            
+			
+            
+		  
+		  
+			
+		  
+		  
+		  
+		  
+		  
+		  
+		 
+		 
+            <!-- Thêm các item tương tự cho các đối tác khác -->
+        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1308px, 0px, 0px); transition: all 0s ease 0s; width: 5014px;"><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=LEXAR" class="text-center"><img src="./Viết Sơn_files/6.png" alt="LAXAR"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=AMD" class="text-center"><img src="./Viết Sơn_files/7.png" alt="AMD"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=G.SKILL" class="text-center"><img src="./Viết Sơn_files/9.png" alt="G.SKILL"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=PALIT" class="text-center"><img src="./Viết Sơn_files/10.jpg" alt="PALIT"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=POWERCOLOR" class="text-center"><img src="./Viết Sơn_files/11.png" alt="POWERCOLOR"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=ASUS" class="text-center"><img src="./Viết Sơn_files/12.png" alt="ASUS"></a>
+            </div></div><div class="owl-item active" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/controller=products&amp;action=listbycategory&amp;category_name=LEXAR" class="text-center"><img src="./Viết Sơn_files/14.png" alt="KINGSTON"></a>
+            </div></div><div class="owl-item active" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=PHILIPS" class="text-center"><img src="./Viết Sơn_files/13.png" alt="PHILIPS"></a>
+            </div></div><div class="owl-item active" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=AOC" class="text-center"><img src="./Viết Sơn_files/2.png" alt="AOC"></a>
+            </div></div><div class="owl-item active" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=VGA%20INTEL" class="text-center"><img src="./Viết Sơn_files/3.png" alt="INTEL"></a>
+            </div></div><div class="owl-item active" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=ASROCK" class="text-center"><img src="./Viết Sơn_files/4.png" alt="AROCK"></a>
+            </div></div><div class="owl-item" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=LEXAR" class="text-center"><img src="./Viết Sơn_files/6.png" alt="LAXAR"></a>
+            </div></div><div class="owl-item" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=AMD" class="text-center"><img src="./Viết Sơn_files/7.png" alt="AMD"></a>
+            </div></div><div class="owl-item" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=G.SKILL" class="text-center"><img src="./Viết Sơn_files/9.png" alt="G.SKILL"></a>
+            </div></div><div class="owl-item" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=PALIT" class="text-center"><img src="./Viết Sơn_files/10.jpg" alt="PALIT"></a>
+            </div></div><div class="owl-item" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=POWERCOLOR" class="text-center"><img src="./Viết Sơn_files/11.png" alt="POWERCOLOR"></a>
+            </div></div><div class="owl-item" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=ASUS" class="text-center"><img src="./Viết Sơn_files/12.png" alt="ASUS"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/controller=products&amp;action=listbycategory&amp;category_name=LEXAR" class="text-center"><img src="./Viết Sơn_files/14.png" alt="KINGSTON"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=PHILIPS" class="text-center"><img src="./Viết Sơn_files/13.png" alt="PHILIPS"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=AOC" class="text-center"><img src="./Viết Sơn_files/2.png" alt="AOC"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=VGA%20INTEL" class="text-center"><img src="./Viết Sơn_files/3.png" alt="INTEL"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=ASROCK" class="text-center"><img src="./Viết Sơn_files/4.png" alt="AROCK"></a>
+            </div></div><div class="owl-item cloned" style="width: 208px; margin-right: 10px;"><div class="item">
+                <a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=LEXAR" class="text-center"><img src="./Viết Sơn_files/6.png" alt="LAXAR"></a>
+            </div></div></div></div><div class="owl-nav"><div class="owl-prev"></div><div class="owl-next"></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+    </div>
+    </div>
+   <!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="./Viết Sơn_files/owl.carousel.min.css">
+<link rel="stylesheet" href="./Viết Sơn_files/owl.theme.default.min.css">
+
+<!-- Owl Carousel JS -->
+<script src="./Viết Sơn_files/jquery.min.js.tải xuống"></script>
+<script src="./Viết Sơn_files/owl.carousel.min.js.tải xuống"></script>
+
+    <style>
+		.owl-carousel .item img {
+    
+    max-height: 100px; /* Chiều cao cố định cho logo */
+    width: auto; /* Chiều rộng tự động để giữ tỷ lệ */
+    margin: 0 auto; /* Căn giữa logo */
+    display: block; /* Hiển thị logo dưới dạng khối để dễ dàng căn giữa */
+    background: white;
+}
+    </style>
+
+    <script>
+$(document).ready(function(){
+    $("#owl-brands-slider").owlCarousel({
+        loop: true, // Vòng lặp liên tục
+        margin: 10, // Khoảng cách giữa các item
+        nav: true, // Hiển thị nút điều hướng
+        autoplay: true, // Tự động chuyển slide
+        autoplayTimeout: 3000, // Thời gian chờ giữa các slide (3 giây)
+        navText: ["",""], // Xóa nội dung của các nút "Prev" và "Next"
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    });
+});
+
+</script>
+</div>
+	<!-- new post -->
+	<div class="blog-container">
+        <div class="image-container">
+            <img src="./Viết Sơn_files/on6.jpg" alt="Blog Image">
+        </div>
+        <div class="text-container">
+            <h4>🔥THÔNG BÁO CHÍNH THỨC TỪ CÔNG TY CỔ PHẦN TIN HỌC VIẾT SƠN🔥</h4>
+            <p>
+			Kể từ ngày 25/07/2024 tập đoàn Achieva Technology SDN BHD chính thức trở thành Nhà Phân Phối khu vực của Intel ( Intel Authorized Distributor)  tại thị trường Việt Nam.
+			Được sự ủy thác và tín nhiệm từ tập đoàn Achieva: 
+			Công Ty Cổ Phần Tin Học Viết Sơn  chính thức trở thành đối tác đại diện , với mục tiêu thúc đẩy hoạt động kinh doanh và phân phối sản phẩm Intel tại thị trường Việt Nam.
+			Chúng tôi cam kết sẽ luôn mang lại những giá trị tốt nhất cho tất cả Quý đối tác kinh doanh cũng như Quý Khách Hàng đã lựa chọn sản phẩm Intel và Công ty Viết Sơn
+			#Vietson #Intel
+            </p>--------------------------------------------------------
+			<p>VIẾT SƠN - Leading Distributor in the Internet of Every things</p>
+			<p>🏠 150Ter Bùi Thị Xuân, P. Phạm Ngũ Lão, Q.1, TP.HCM</p>
+			<p>🏠 Chi nhánh HN : tầng 4, số 1 Thái Hà- Trung Liệt, Đống Đa, Hà Nội.</p><div class="red_button deal_ofthe_week_button"><a href="http://localhost:8080/VIETSON/index.php?controller=news&amp;action=newsdetail&amp;id=8">Xem thêm</a></div>
+        </div>
+    </div>
+    <style>
+	body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+}
+
+.blog-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-container h1 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.text-container p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+    </style>
+	<!-- New Arrivals -->
+	<!-- Deal of the week -->
+
+	<div class="deal_ofthe_week mt-2">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-5">
+					<div class="deal_ofthe_week_img">
+						<img src="./Viết Sơn_files/1.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-7 text-right deal_ofthe_week_col">
+					<div class="deal_ofthe_week_content d-flex flex-column align-items-center">
+						<div class="section_title">
+							<h2>Giá tốt nhất trong tuần</h2>
+						</div>
+
+						<!-- <ul class="timer">
+							<li class="d-inline-flex flex-column justify-content-center align-items-center">
+								<div id="day" class="timer_num">03</div>
+								<div class="timer_unit">Day</div>
+							</li>
+							<li class="d-inline-flex flex-column justify-content-center align-items-center">
+								<div id="hour" class="timer_num">15</div>
+								<div class="timer_unit">Hours</div>
+							</li>
+							<li class="d-inline-flex flex-column justify-content-center align-items-center">
+								<div id="minute" class="timer_num">45</div>
+								<div class="timer_unit">Mins</div>
+							</li>
+							<li class="d-inline-flex flex-column justify-content-center align-items-center">
+								<div id="second" class="timer_num">23</div>
+								<div class="timer_unit">Sec</div>
+							</li>
+						</ul> -->
+						<div class="red_button deal_ofthe_week_button"><a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=M%C3%81Y%20B%E1%BB%98%20ROSA">Liên hệ ngay</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- Best Sellers -->
+	<div class="blog-container">
+    <div class="text-container">
+        <h1>CPU AMD Ryzen 9 7900X3D</h1>
+    <p>
+	CPU AMD Ryzen 9 7900X3D là mẫu CPU hàng đầu của AMD Ryzen thời điểm hiện tại. Thuộc vào thế hệ AMD Ryzen™ 7000 Series Desktop Processors, chiếc CPU AMD Ryzen này mang lại hiệu năng xử lý vượt trội cho bộ PC của bạn.    
+	</p>
+	<div class="red_button deal_ofthe_week_button"><a href="http://localhost:8080/VIETSON/index.php?controller=products&amp;action=listbycategory&amp;category_name=M%C3%81Y%20B%E1%BB%98%20ROSA">Liên hệ ngay</a></div>
+    </div>
+    <div class="image-container">
+        <img src="./Viết Sơn_files/name (41).jpg" alt="Blog Image">
+    </div>
+</div>
+<style>
+	.blog-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-container {
+    flex: 2;
+    margin-right: 20px; /* Khoảng cách giữa văn bản và ảnh */
+}
+
+.image-container {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+</style>
+
+
+
+	<!-- Benefit -->
+
+	<div class="benefit mt-2">
+		<div class="container">
+			<div class="row benefit_row">
+				<div class="col-lg-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon"><i class="fa fa-truck" aria-hidden="true"></i></div>
+						<div class="benefit_content mr-1">
+							<h6>Bảo hành 1 năm</h6>
+							<p>Sản phẩm chính hãng với bảo hành tối thiểu 1 năm</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+						<div class="benefit_content mr-1">
+							<h6>Thanh toán dễ dàng</h6>
+							<p>Có nhiều cách thanh toán</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon"><i class="fa fa-undo" aria-hidden="true"></i></div>
+						<div class="benefit_content">
+							<h6>30 ngày đổi trả hàng</h6>
+							<p>Có thể đổi trả hàng bị lỗi trong 30 ngày</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+						<div class="benefit_content">
+							<h6>Thời gian làm việc</h6>
+							<p>8h sáng - 17h30 chiều</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Blogs -->
+
+	<div class="blogs mt-4">
+		<div class="container ">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title">
+						<h3>Tin tức</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row blogs_container">
+								<div class="col-lg-4 blog_item_col">
+					<div class="blog_item">
+						<div class="blog_background" style="background-image:url(assets/upload/news/1724732860_1724731863_5.jpg)"></div>
+						<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
+							<h5 class="blog_title">Adobe vừa ra mắt tính năng mới </h5>
+							<span class="blog_meta">viết bởi: Văn An<br>
+							Ngày 27/08/2024</span>
+							<a class="blog_more" href="http://localhost:8080/VIETSON/index.php?controller=news">Xem chi tiết</a>
+						</div>
+					</div>
+				</div>
+								<div class="col-lg-4 blog_item_col">
+					<div class="blog_item">
+						<div class="blog_background" style="background-image:url(assets/upload/news/1724731817_on6.jpg)"></div>
+						<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
+							<h5 class="blog_title">THÔNG BÁO CHÍNH THỨC TỪ CÔNG TY CỔ PHẦN TIN HỌC VIẾT SƠN</h5>
+							<span class="blog_meta">viết bởi: Anh Long<br>
+							Ngày 04/05/2023</span>
+							<a class="blog_more" href="http://localhost:8080/VIETSON/index.php?controller=news">Xem chi tiết</a>
+						</div>
+					</div>
+				</div>
+								<div class="col-lg-4 blog_item_col">
+					<div class="blog_item">
+						<div class="blog_background" style="background-image:url(assets/upload/news/1724039879_dai-ly-5496.jpg)"></div>
+						<div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
+							<h5 class="blog_title">Danh sách đại lý</h5>
+							<span class="blog_meta">viết bởi: Anh Long<br>
+							Ngày 29/04/2023</span>
+							<a class="blog_more" href="http://localhost:8080/VIETSON/index.php?controller=news">Xem chi tiết</a>
+						</div>
+					</div>
+				</div>
+							</div>
+			<div class="col-md-2 float-right p-2 mr- font-italic text-right font-weight-bold"><a class="blog_more " href="http://localhost:8080/VIETSON/index.php?controller=news">Xem thêm &gt;&gt;&gt;</a></div>
+		</div>
+	</div>
+    </div></section>
+    
+    <!-- /.content -->
+	<div class="bottom-0">
+	<!-- Newsletter -->
+
+		<div class="newsletter mt-5 container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center text-center">
+						<h4>Nhận tin tức</h4>
+						<p>Theo dõi để nhận ưu đãi mới nhất của chúng tôi</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<form action="http://localhost:8080/VIETSON/post">
+						<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center">
+							<input id="newsletter_email" type="email" placeholder="Nhập email của bạn" required="required" data-error="Valid email is required.">
+							<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">subscribe</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+<footer class="footer">
+	<div id="footer-wp">
+    <div id="foot-body">
+        <div class="wp-inner clearfix">
+            <div class="block" id="info-company">
+                
+                <h4 class="title"> CÔNG TY CỔ PHẦN TIN HỌC Viết Sơn </h4>
+                <p class="desc">CÔNG TY CỔ PHẦN TIN HỌC VIẾT SƠN luôn cung cấp luôn là sản phẩm chính hãng có thông tin rõ ràng, chính sách ưu đãi cực lớn cho khách hàng có thẻ thành viên.</p>
+                <!-- <img src="assets/images/logo VS_new.png" alt=""> -->
+                <div id="payment">
+                </div>
+            </div>
+            <div class="block menu-ft" id="info-shop">
+                <h4 class="title">Thông tin cửa hàng</h4>
+                
+                <ul class="list-item">
+                    <li>
+                        <p>(028)39293770 - (028)39293765 </p>
+                    </li>
+                    <li>
+                        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=support@gmail.com" title="">support@gmail.com</a>
+                    </li>
+
+                    <b>CHI NHÁNH HÀ NỘI</b>
+                    <li>
+                        <p>Tầng 4, Tòa nhà Viet Tower, số 01 phố Thái Hà, P.Trung Liệt, Q. Đống Đa, TP Hà Nội</p>
+                    </li>
+                    
+                    <b>TRỤ SỞ CHÍNH &amp; TTBH HCM</b>
+                    <li>
+                        <p>150 Ter, đường Bùi Thị Xuân, phường Phạm Ngủ Lão, Quận 1, TP. Hồ Chí Minh</p>
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="block menu-ft policy" id="info-shop">
+                <h4 class="title">Chính sách mua hàng</h4>
+                <ul class="list-item">
+                    <li>
+                        <a href="http://localhost:8080/VIETSON/index.php?mod=page&amp;page_id=2" title="">Quy định - chính sách</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:8080/VIETSON/index.php" title="">Chính sách bảo hành - đổi trả</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:8080/VIETSON/index.php" title="">Chính sách hội viện</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:8080/VIETSON/index.php" title="">Giao hàng - lắp đặt</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:8080/VIETSON/index.php" title="">Chính sách thanh toán </a>
+                    </li>
+                    <!-- <div class="thumb">
+                        <img src="public/images/1.png" alt="">
+                    </div>  -->
+                </ul>
+            </div>
+                
+
+            <div class="block" id="newfeed">
+                <h4 class="title">Bảng tin</h4>
+                <p class="desc">Đăng ký để nhận tin tức ưu đãi sớm nhất từ chúng tôi</p>
+                <div id="form-reg">
+                    <form method="POST" action="http://localhost:8080/VIETSON/index.php">
+                        <input type="email" name="email" id="email" placeholder="Nhập email tại đây">
+                        <button type="submit" id="sm-reg">Đăng ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div id="foot-bot">
+        <div class="wp-inner">
+        <p style="color: #FFFFFF">© <span id="current-year"><script>document.write (new Date().getFullYear());</script>2024 Bản quyền thuộc về CÔNG TY CỔ PHẦN TIN HỌC</span> <a href="https://vietsontdc.vn/" ref="nofollow" style="color: #FFFFFF" target="_blank">VIẾT SƠN</a></p>
+        </div>
+    </div>
+    <style>
+	/*FOOTER*/
+#footer-wp #foot-body{ padding: 50px 0px;}
+#footer-wp #foot-body .block{ float: left; width: 25%; padding-left: 30px;}
+#footer-wp #foot-body .block:first-child{ padding-left: 0;}
+#info-company .title{
+    font-size: 28px;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+    color: #da1818;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+#info-company .desc, #newfeed .desc{
+    font-family: 'Roboto Light';
+    text-align: justify;
+    color: #6d6d6d;
+    margin-bottom: 25px;
+}
+.menu-ft .title, #newfeed .title{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.menu-ft .list-item li{ margin-bottom: 10px;}
+.menu-ft .list-item li:last-child{ margin-bottom: 0;}
+.menu-ft .list-item li p{
+    position: relative;
+    color: #000;
+    font-family: 'Roboto Light';
+    padding-left: 25px;
+}
+.menu-ft .list-item li:nth-child(1) p:before, .menu-ft .list-item li:nth-child(2) p:before, .menu-ft .list-item li:nth-child(3) p:before{
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 0;
+    left: 0;
+}
+.menu-ft .list-item li:nth-child(1) p:before{ content: '\f041';}
+.menu-ft .list-item li:nth-child(2) p:before{ content: '\f095';}
+.menu-ft .list-item li:nth-child(3) p:before{ content: '\f0e0';}
+#info-shop .list-item li a{
+    position: relative;
+    color: #000;
+    font-family: 'Roboto Light';
+    padding-left: 20px;
+}
+#info-shop .list-item li a:before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #da1818;
+    transform: translateY(-50%);
+}
+#form-reg #email{
+    display: block;
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+#form-reg #sm-reg{
+    display: block;
+    width: 100%;
+    background: #da1818;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto Medium';
+    line-height: normal;
+}
+#form-reg #sm-reg:hover{ background: #c10f0f;}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #999;
+    font-family: 'Roboto Light';
+    font-size: 13px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #999;
+    font-family: 'Roboto Light';
+    font-size: 13px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #999;
+    font-family: 'Roboto Light';
+    font-size: 13px;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #999;
+    font-family: 'Roboto Light';
+    font-size: 13px;
+}
+#foot-bot{
+    background: #da1818;
+    text-align: center;
+    padding: 10px 0px;
+}
+#foot-bot #copyright{
+    color: #fff;
+    line-height: normal;
+    font-family: 'Roboto Light';
+}
+    </style>
+    
+
+</div>
+</footer></div>
+
+			</div>
+		
+	
+
+
+		<div class=" float-right " style=" z-index:2;position: fixed;right:5px;bottom: 50px;" data-toggle="modal" data-target="#dialog1">
+			<img style="width: 150px;" src="./Viết Sơn_files/rosa.gif">
+			
+		</div>
+<div class="modal fade" id="dialog1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="p-3 float-right"><i class="fa fa-times float-right" data-dismiss="modal" aria-hidden="true"></i></div>
+            <div class="modal-header p-0">
+				<div class="container text-center h-100">
+					<h4 class="text-white-50 mb-5">Liên hệ với chúng tôi</h4>
+				</div>
+			</div>
+            <div class="modal-body pt-0">
+				<form id="review_form" method="post" class="mt-3" action="http://localhost:8080/VIETSON/index.php?controller=feedbacks&amp;action=createFeedbacks"> 
+				<div>
+					<h5>Thông tin cá nhân</h5>
+					<input id="review_name" class="form_input input_name" type="text" name="name" placeholder="Name*" required="required" value="">
+					<input id="review_email" class="form_input input_email" type="email" name="email" placeholder="Email*" required="required" value="">
+					<a href="https://zalo.me/0909613837" target="_blank">Liên hệ qua Zalo</a>
+
+				</div>
+				<div>
+					<h5>Góp ý của bạn:</h5>
+					
+					<textarea id="content" class="input_review" name="content" placeholder="Nội dung" rows="4" required="" data-error="Please, leave us a review."></textarea>
+					
+				</div>
+				<div class="text-left text-sm-right">
+					<button type="submit" class="red_button review_submit_btn trans_300">Gửi đi </button>
+					
+				</div>
+				</form>
+            </div>
+        
+        </div>
+    </div>
+</div>
+<script src="./Viết Sơn_files/jquery-3.2.1.min.js.tải xuống"></script>
+<script src="./Viết Sơn_files/popper.js.tải xuống"></script>
+<script src="./Viết Sơn_files/bootstrap.min.js.tải xuống"></script>
+<script src="./Viết Sơn_files/isotope.pkgd.min.js.tải xuống"></script>
+<script src="./Viết Sơn_files/owl.carousel.js.tải xuống"></script>
+<script src="./Viết Sơn_files/easing.js.tải xuống"></script>
+<script src="./Viết Sơn_files/custom.js.tải xuống"></script>
+<script src="./Viết Sơn_files/products_carts.js.tải xuống"></script>
+
+
+
+
+</body><div style="position: absolute; top: 0px; z-index: 2147483647; display: block !important; overflow: unset;"><template shadowrootmode="open"><style>@import "chrome-extension://jdfkmiabjpfjacifcmihfdjhpnjpiick/css/content-script.css";
+</style><div class="body"><div class="turn-lights-overlay"></div><toasts id="toasts-container"></toasts></div></template></div><div class="corom-element" en2vi-version="3" style="position: absolute; top: 0px; left: 0px; right: 0px; height: 0px; margin: 0px; text-align: left; z-index: 2147483647; pointer-events: none; border: none; display: block;"><template shadowrootmode="open"><style>@import "chrome-extension://gfgbmghkdjckppeomloefmbphdfmokgd/css/common.css";
+@import "chrome-extension://gfgbmghkdjckppeomloefmbphdfmokgd/css/style.css";</style><style id="svelte-1dp9t6n">.toast-container.svelte-1dp9t6n{position:fixed;pointer-events:none;width:100%;height:100%;display:flex;flex-direction:column-reverse;align-items:center;z-index:1000;bottom:0;padding:16px;gap:8px}</style>   <div class="toast-container svelte-1dp9t6n"></div></template></div></html>
